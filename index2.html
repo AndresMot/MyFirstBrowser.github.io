@@ -1,0 +1,37 @@
+<!--Busquedda de imágenes de Google!-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Img</title>
+        <style type="text/css">
+            body{
+                background-color: greenyellow;
+                float: center;
+            }
+            button[href="btnBack"] {
+                color: black;
+                background-color: white;
+                width: 120px;
+                height: 35px;
+                font-size: 12px;
+                text-align: center;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="file:///C:/Users/usuario/Desktop/MisCarpetas/Entretenimiento/CS50%E2%80%99s%20Web%20Programming%20with%20Python%20and%20JavaScript/index.html">
+            <button href="btnBack">Back</button>
+        </a>
+        <br></br>
+        <h1 style="text-align: center; color: black;">
+            Welcome to my images browser
+        </h1>
+        <form action="https://www.google.com/search" style="text-align:center;">
+            <input type="text" name="q">
+            <input name="tbm" type="hidden" value="isch">
+            <input name="source" type="hidden" value="lnms">
+            <input type="submit" value="Google Search Img">
+        </form>
+    </body>
+</html>

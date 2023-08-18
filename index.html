@@ -1,0 +1,73 @@
+<!--Busquedda normal de Google!-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            body[href="general"] {
+                background-color: yellow;
+                font-family: initial;
+                font-size: 24 px;
+                text-align: center;
+            }
+
+            button[href="btnAd"] {
+                color: black;
+                background-color: white;
+                width: 120px;
+                height: 35px;
+                font-size: 12px;
+                text-align: center;
+                float: right;
+            }
+            button[href="btnImg"] {
+                color: black;
+                background-color: white;
+                width: 120px;
+                height: 35px;
+                font-size: 12px;
+                text-align: center;
+                float: right;
+            }
+            input[href="StyleForm"]{
+                width: 70%;
+                padding: 10px 20px;
+                border: 1px solid black;
+                border-radius: 30px;
+            }
+            input[href="StyleForm"]:hover {
+                box-shadow: 2px 2px 15px;
+            }
+            input[href="BtnSearch"]{
+                padding: 8px 60px;
+                border: 1px solid black;
+                background-color: whitesmoke;
+                border-radius: 5px;
+                font-size:15px;
+                font-family: serif;
+            }
+            input[href="BtnSearch"]:hover {
+                box-shadow: 1px 1px 5px;
+            }
+        </style>
+    </head>
+    <body href="general">
+        <a href="file:///C:/Users/usuario/Desktop/MisCarpetas/Entretenimiento/CS50%E2%80%99s%20Web%20Programming%20with%20Python%20and%20JavaScript/index2.html">
+            <button href="btnImg">Google Images</button>
+        </a>
+        <br></br>
+        <a href="file:///C:/Users/usuario/Desktop/MisCarpetas/Entretenimiento/CS50%E2%80%99s%20Web%20Programming%20with%20Python%20and%20JavaScript/index3.html">
+            <button href="btnAd">Google advanced</button>
+        </a>
+        <br></br>
+        <h1 style="text-align: center; color: black;">
+            Welcome to my browser!
+        </h1>
+        <form action="https://www.google.com/search" >
+            <input type="text" name="q" href="StyleForm">
+            <br></br>
+            <input type="submit" value="Google Search" href="BtnSearch">
+            <input type="submit" name="btnI" value="I’m Feeling Lucky" href="BtnSearch">
+        </form>
+    </body>
+</html>
